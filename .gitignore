@@ -1,0 +1,25 @@
+# ======================================================
+# SECRETOS (Obligatorio ocultar para el examen)
+# ======================================================
+.env
+.streamlit/secrets.toml
+
+# ======================================================
+# ARCHIVOS GIGANTES O BASURA LOCAL
+# ======================================================
+# El dataset original gigante se queda solo en tu PC
+arxiv_data.csv
+
+# La base de datos local no se sube (Streamlit la creará en la nube)
+chroma_db/
+
+# Cachés innecesarias de Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+embeddings_cache_ids.json
+
+# ======================================================
+# NOTA: corpus_reducido.csv y embeddings_cache.npy 
+# NO se ponen aquí porque SÍ queremos que se suban a GitHub.
+# ======================================================
