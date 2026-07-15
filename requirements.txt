@@ -1,0 +1,9 @@
+streamlit
+google-genai
+chromadb
+pandas
+numpy
+python-dotenv
+tqdm
+sentence-transformers
+tenacity
